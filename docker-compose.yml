@@ -1,0 +1,33 @@
+version: "3.9"
+
+services:
+  web:
+    build:
+      context: "Vue"
+    image: "localhost:7002/web:${IMAGE_TAG}"
+    container_name: "${WEB_CONT_NAME}"
+    ports:
+      - "${WEB_PORT}:80"
+    environment:
+      - API_URL=${API_URL}
+  api:
+    build:
+        context: "LegoCollectors.WebAPI"
+    image: "localhost:7002/api:${IMAGE_TAG}"
+    container_name: "${API_CONT_NAME}"
+    ports:
+      - "${API_PORT}:80"
+    volumes:
+      - "dbdata:/data/db"
+        
+  flyway:
+    image: flyway/flyway
+    user: root
+    command: migrate
+    volumes:
+      - ./flyway/sql:/flyway/sql
+      - ./flyway:/flyway/conf
+      - "dbdata:/data/db"
+
+volumes:
+  dbdata:
