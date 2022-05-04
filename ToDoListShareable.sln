@@ -1,8 +1,70 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.WebApi", "ToDoListShareable.WebApi\ToDoListShareable.WebApi.csproj", "{F86DD6C8-FA68-4461-BD32-A58A920DE14A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Core", "ToDoListShareable.Core\ToDoListShareable.Core.csproj", "{9B33F8B0-F6F0-4EDA-BB6E-B5D68E4B4060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Domain", "ToDoListShareable.Domain\ToDoListShareable.Domain.csproj", "{B50CDC3A-FB03-4E6A-98E7-DDF419F66EA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Security", "ToDoListShareable.Security\ToDoListShareable.Security.csproj", "{6AECB5E1-1F53-4A09-8DC6-2BC42E9E84AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.DataAccess", "ToDoListShareable.DataAccess\ToDoListShareable.DataAccess.csproj", "{A2BD054F-BBBA-4F74-8091-353962A96291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Core.UnitTest", "ToDoListShareable.Core.UnitTest\ToDoListShareable.Core.UnitTest.csproj", "{2907AD94-2B98-44C6-ADFC-767DD73B39FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.DataAccess.UnitTest", "ToDoListShareable.DataAccess.UnitTest\ToDoListShareable.DataAccess.UnitTest.csproj", "{78742DF7-57C9-4FD1-93C4-AAC673D1D430}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Domain.UnitTest", "ToDoListShareable.Domain.UnitTest\ToDoListShareable.Domain.UnitTest.csproj", "{FC508E25-9791-48B5-BFD1-C581F52E3851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.WebApi.UnitTest", "ToDoListShareable.WebApi.UnitTest\ToDoListShareable.WebApi.UnitTest.csproj", "{41085836-5435-42D5-809F-55FE5DCE10E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoListShareable.Secuirty.UnitTest", "ToDoListShareable.Secuirty.UnitTest\ToDoListShareable.Secuirty.UnitTest.csproj", "{413C4F60-A2FC-4BCA-8C29-DAE193AC2F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F86DD6C8-FA68-4461-BD32-A58A920DE14A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F86DD6C8-FA68-4461-BD32-A58A920DE14A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F86DD6C8-FA68-4461-BD32-A58A920DE14A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F86DD6C8-FA68-4461-BD32-A58A920DE14A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B33F8B0-F6F0-4EDA-BB6E-B5D68E4B4060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B33F8B0-F6F0-4EDA-BB6E-B5D68E4B4060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B33F8B0-F6F0-4EDA-BB6E-B5D68E4B4060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B33F8B0-F6F0-4EDA-BB6E-B5D68E4B4060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B50CDC3A-FB03-4E6A-98E7-DDF419F66EA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B50CDC3A-FB03-4E6A-98E7-DDF419F66EA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B50CDC3A-FB03-4E6A-98E7-DDF419F66EA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B50CDC3A-FB03-4E6A-98E7-DDF419F66EA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AECB5E1-1F53-4A09-8DC6-2BC42E9E84AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AECB5E1-1F53-4A09-8DC6-2BC42E9E84AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AECB5E1-1F53-4A09-8DC6-2BC42E9E84AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AECB5E1-1F53-4A09-8DC6-2BC42E9E84AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2BD054F-BBBA-4F74-8091-353962A96291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2BD054F-BBBA-4F74-8091-353962A96291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2BD054F-BBBA-4F74-8091-353962A96291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2BD054F-BBBA-4F74-8091-353962A96291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2907AD94-2B98-44C6-ADFC-767DD73B39FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2907AD94-2B98-44C6-ADFC-767DD73B39FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2907AD94-2B98-44C6-ADFC-767DD73B39FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2907AD94-2B98-44C6-ADFC-767DD73B39FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78742DF7-57C9-4FD1-93C4-AAC673D1D430}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78742DF7-57C9-4FD1-93C4-AAC673D1D430}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78742DF7-57C9-4FD1-93C4-AAC673D1D430}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78742DF7-57C9-4FD1-93C4-AAC673D1D430}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC508E25-9791-48B5-BFD1-C581F52E3851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC508E25-9791-48B5-BFD1-C581F52E3851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC508E25-9791-48B5-BFD1-C581F52E3851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC508E25-9791-48B5-BFD1-C581F52E3851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41085836-5435-42D5-809F-55FE5DCE10E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41085836-5435-42D5-809F-55FE5DCE10E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41085836-5435-42D5-809F-55FE5DCE10E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41085836-5435-42D5-809F-55FE5DCE10E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{413C4F60-A2FC-4BCA-8C29-DAE193AC2F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{413C4F60-A2FC-4BCA-8C29-DAE193AC2F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{413C4F60-A2FC-4BCA-8C29-DAE193AC2F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{413C4F60-A2FC-4BCA-8C29-DAE193AC2F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
