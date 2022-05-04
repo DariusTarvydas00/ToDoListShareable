@@ -27,7 +27,7 @@ pipeline{
 
                 stage('Build Frontend') {
                     when {
-                        changeset "vue/**"
+                        changeset "Vue/**"
                     }
                     steps {
                         sh "docker-compose --env-file config/Test.env build web"
