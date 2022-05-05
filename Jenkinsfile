@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     triggers{
-        pollSCM('H * * * *')
+        pollSCM('* * * * *')
     }
                 
     stages{
@@ -16,7 +16,6 @@ pipeline{
                             changeset "ToDoListShareable.Domain/**"
                             changeset "ToDoListShareable.Security/**"
                             changeset "ToDoListShareable.WebApi/**"
-                            changeset "ToDoListShareable.DataAccess.Test/**"
                         }
                     }
                     steps{
