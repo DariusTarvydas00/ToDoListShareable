@@ -12,8 +12,8 @@ services:
       - API_URL=${API_URL}
   api:
     build:
-        context: "ToDoListShareable.WebApi"
-        context: "ToDoListShareable.WebAPI"
+        context: "ToDoShareable.WebApi"
+        context: "ToDoShareable.WebAPI"
     image: "localhost:7002/api:${IMAGE_TAG}"
     container_name: "${API_CONT_NAME}"
     ports:
