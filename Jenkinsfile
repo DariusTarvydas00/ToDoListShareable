@@ -15,7 +15,7 @@ pipeline{
                             changeset "ToDoListShareable.DataAccess/**"
                             changeset "ToDoListShareable.Domain/**"
                             changeset "ToDoListShareable.Security/**"
-                            changeset "ToDoListShareable.WebApi/**"
+                            changeset "ToDoListShareable.WebApi/**" 
                         }
                     }
                     steps{
